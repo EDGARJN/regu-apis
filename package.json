@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5"
+  },
+  "name": "regu-apis",
+  "version": "1.0.0",
+  "description": "CRDB hackthon project based on helping startup to face regulations and compliances rules safely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDGARJN/regu-apis.git"
+  },
+  "keywords": [
+    "regu",
+    "apis",
+    "crdb"
+  ],
+  "author": "EDGAR JN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EDGARJN/regu-apis/issues"
+  },
+  "homepage": "https://github.com/EDGARJN/regu-apis#readme"
+}
